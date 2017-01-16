@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {62349EBA-4542-487B-A226-7B639CE86750}
+database: master
+path: /sitecore/Commerce/Commerce Synchronization/Commerce Routes/Route Requests/DynamicsPromotions
+parent: {06A9A56D-D6B3-413C-A2BE-412C0E53CD11}
+name: DynamicsPromotions
+master: {00000000-0000-0000-0000-000000000000}
+template: {359A750B-8C3B-4525-875F-4C66CA8EE79B}
+templatekey: Commerce Route Request
+created: 20161214T213641:636173482014200000
+
+----field----
+field: {BBFF4799-381A-4124-B1E9-CC01F6136C4B}
+name: Routes
+key: routes
+content-length: 38
+
+{741485A7-4502-425C-AF57-E30E9AEC93F3}
+----field----
+field: {6A6D6A55-F8E7-474A-BEE9-C9D5BE89E022}
+name: Last Run
+key: last run
+content-length: 15
+
+20170113T102457
+----field----
+field: {184B9173-833C-4DBF-8F17-047840538AAE}
+name: Requested At
+key: requested at
+content-length: 15
+
+20161223T162135
+----version----
+language: en
+version: 1
+revision: 08128578-9346-4a94-9d0b-d4ae5a94e56d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161214T213641Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+08128578-9346-4a94-9d0b-d4ae5a94e56d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170113T152457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

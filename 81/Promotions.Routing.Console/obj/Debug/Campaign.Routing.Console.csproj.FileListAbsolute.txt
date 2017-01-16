@@ -1,0 +1,7 @@
+C:\Development\TFS\POC\AXCampaignSync\Working\Routing.Framework.Sdk\Routing.Framework.Sdk\Console\obj\Debug\Campaign.Routing.Console.csprojResolveAssemblyReference.cache
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\RoutingConsole\App.config
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\RoutingConsole\Sitecore.Commerce.DynamicsRetail.Synchronization.Campaign.Console.exe.config
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\RoutingConsole\Sitecore.Commerce.DynamicsRetail.Synchronization.Campaign.Console.exe
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\RoutingConsole\Sitecore.Commerce.DynamicsRetail.Synchronization.Campaign.Console.pdb
+C:\Development\TFS\POC\AXCampaignSync\Working\Routing.Framework.Sdk\Routing.Framework.Sdk\Console\obj\Debug\Sitecore.Commerce.DynamicsRetail.Synchronization.Campaign.Console.exe
+C:\Development\TFS\POC\AXCampaignSync\Working\Routing.Framework.Sdk\Routing.Framework.Sdk\Console\obj\Debug\Sitecore.Commerce.DynamicsRetail.Synchronization.Campaign.Console.pdb

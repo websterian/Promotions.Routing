@@ -1,0 +1,2 @@
+Route_DynamicsPromotions(Start)
+CreateSitecorePromotions(Start)

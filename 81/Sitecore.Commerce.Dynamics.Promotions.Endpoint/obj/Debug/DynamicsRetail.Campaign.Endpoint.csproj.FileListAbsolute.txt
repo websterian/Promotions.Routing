@@ -1,0 +1,5 @@
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\Sitecore.Commerce.Campaign.Endpoint.dll.config
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\Sitecore.Commerce.Campaign.Endpoint.dll
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\Sitecore.Commerce.Campaign.Endpoint.pdb
+C:\Development\TFS\POC\AXCampaignSync\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Debug\Sitecore.Commerce.Campaign.Endpoint.dll
+C:\Development\TFS\POC\AXCampaignSync\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Debug\Sitecore.Commerce.Campaign.Endpoint.pdb

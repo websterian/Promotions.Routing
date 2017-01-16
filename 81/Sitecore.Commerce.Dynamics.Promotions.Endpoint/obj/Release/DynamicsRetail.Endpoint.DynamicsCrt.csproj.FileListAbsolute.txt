@@ -1,0 +1,17 @@
+C:\Source\CS11.3RTM\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll.config
+C:\Source\CS11.3RTM\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll
+C:\Source\CS11.3RTM\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.pdb
+C:\Source\CS11.3RTM\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.xml
+C:\Source\CS11.3RTM\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll.CodeAnalysisLog.xml
+C:\Source\CS11.3RTM\DynamicsRetail\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Release\DynamicsRetail.Endpoint.DynamicsCrt.csprojResolveAssemblyReference.cache
+C:\Source\CS11.3RTM\DynamicsRetail\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll
+C:\Source\CS11.3RTM\DynamicsRetail\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.pdb
+C:\Source\CS11.3RTM\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll.lastcodeanalysissucceeded
+C:\Development\Avanade\Working\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll.config
+C:\Development\Avanade\Working\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll
+C:\Development\Avanade\Working\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.pdb
+C:\Development\Avanade\Working\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.xml
+C:\Development\Avanade\Working\Binaries\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll.CodeAnalysisLog.xml
+C:\Development\Avanade\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Release\DynamicsRetail.Endpoint.DynamicsCrt.csprojResolveAssemblyReference.cache
+C:\Development\Avanade\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.dll
+C:\Development\Avanade\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Release\Sitecore.Commerce.Endpoint.DynamicsCrt.pdb

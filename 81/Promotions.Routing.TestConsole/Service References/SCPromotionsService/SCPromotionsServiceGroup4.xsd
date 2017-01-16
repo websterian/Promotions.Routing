@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://cu10:8101/DynamicsAx/Services/SCPromotionsServiceGroup?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" />
+  <xs:complexType name="SCPromotionContract">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q1:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="concurrency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="enabled" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="priceDiscount" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="promotionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SCPromotionContract" nillable="true" type="tns:SCPromotionContract" />
+  <xs:complexType name="ArrayOfSCPromotionContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SCPromotionContract" nillable="true" type="tns:SCPromotionContract" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSCPromotionContract" nillable="true" type="tns:ArrayOfSCPromotionContract" />
+</xs:schema>

@@ -1,0 +1,6 @@
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\Sitecore.Commerce.Promotions.Endpoint.dll.config
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\Sitecore.Commerce.Promotions.Endpoint.dll
+C:\Development\TFS\POC\AXCampaignSync\Working\Binaries\Debug\Sitecore.Commerce.Promotions.Endpoint.pdb
+C:\Development\TFS\POC\AXCampaignSync\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Debug\DynamicsRetail.Promotions.Endpoint.csprojResolveAssemblyReference.cache
+C:\Development\TFS\POC\AXCampaignSync\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Debug\Sitecore.Commerce.Promotions.Endpoint.dll
+C:\Development\TFS\POC\AXCampaignSync\Working\DynamicsRetail.Routing\DynamicsRetail.Routing\DynamicsRetail.Endpoint\obj\Debug\Sitecore.Commerce.Promotions.Endpoint.pdb

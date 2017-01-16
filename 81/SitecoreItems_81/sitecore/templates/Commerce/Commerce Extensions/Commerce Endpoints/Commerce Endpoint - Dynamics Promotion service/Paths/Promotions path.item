@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {D9DCC023-34C8-4249-81BF-B16832383BB7}
+database: master
+path: /sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Promotions path
+parent: {E948D204-880C-4994-8D49-2C68C90E4E41}
+name: Promotions path
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20170103T173234:636190615540970000
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 10
+
+Datasource
+----version----
+language: en
+version: 1
+revision: 8293baad-5001-4719-ab38-a8d28e0b8c8c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170103T173234Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8293baad-5001-4719-ab38-a8d28e0b8c8c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170103T180141Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

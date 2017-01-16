@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="189ab7c5-ebeb-4ef7-9f26-ef1a38428d9b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://CU10:8101/DynamicsAx/Services/SCPromo" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SCPromo.wsdl" MetadataType="Wsdl" ID="4c786c02-c583-43d5-b26c-1537c70a4602" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?wsdl=wsdl0" />
+    <MetadataFile FileName="SCPromo.xsd" MetadataType="Schema" ID="d21f524e-b687-4e51-8db9-fd5803b6470f" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd0" />
+    <MetadataFile FileName="SCPromo1.wsdl" MetadataType="Wsdl" ID="0f5ff6ca-6733-4f23-bb04-719f4acba23c" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo" />
+    <MetadataFile FileName="SCPromo1.xsd" MetadataType="Schema" ID="6df25d7b-82d0-4160-a238-65d6d8e7d2c0" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd6" />
+    <MetadataFile FileName="SCPromo2.xsd" MetadataType="Schema" ID="90b1cc1c-20b2-4d53-8c10-d5c157eafbe8" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd5" />
+    <MetadataFile FileName="SCPromo3.xsd" MetadataType="Schema" ID="58fbfc26-95da-4164-affe-506973a3a60c" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd4" />
+    <MetadataFile FileName="SCPromo4.xsd" MetadataType="Schema" ID="1875e88d-fd32-4dbd-9625-19e9dd9142cd" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd7" />
+    <MetadataFile FileName="SCPromo5.xsd" MetadataType="Schema" ID="9d21c3fd-74c0-4f61-b78a-e679c22c7ede" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd1" />
+    <MetadataFile FileName="SCPromo6.xsd" MetadataType="Schema" ID="8ae6ae60-1043-4f66-b696-f7fea8f611a3" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd3" />
+    <MetadataFile FileName="SCPromo7.xsd" MetadataType="Schema" ID="9f10fd04-d534-4e8e-90c2-8e8bdc1b90be" SourceId="1" SourceUrl="http://cu10:8101/DynamicsAx/Services/SCPromo?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,546 @@
+﻿Exportfile for AOT version 1.0 or later
+Formatversion: 1
+
+***Element: SVC
+
+; Microsoft Dynamics AX SERVICE : SCPromotionService unloaded
+; --------------------------------------------------------------------------------
+  VERSION 1
+  
+  SERVICE #SCPromotionService
+    PROPERTIES
+      Name                #SCPromotionService
+      Class               #SCPromotion
+      Origin              #{974DE7FE-10A1-45D9-85BE-F50F66FEE1A0}
+    ENDPROPERTIES
+    
+    OPERATIONS
+      OPERATION #GetAllDiscounts
+        PROPERTIES
+          Name                #GetAllDiscounts
+          Method              #GetAllDiscounts
+        ENDPROPERTIES
+        
+        PERMISSIONSET #Permissions
+          PROPERTIES
+          ENDPROPERTIES
+          
+          TABLES #Tables
+          ENDTABLES
+          
+        SERVERMETHODS #Server Methods
+        ENDSERVERMETHODS
+        
+      ASSOCIATEDCODEPERMISSIONS #Associated Code Permissions
+      ENDASSOCIATEDCODEPERMISSIONS
+      
+  ENDPERMISSIONSET
+  
+ENDOPERATION
+
+OPERATION #GetItemDiscounts
+  PROPERTIES
+    Name                #GetItemDiscounts
+    Method              #GetItemDiscounts
+  ENDPROPERTIES
+  
+  PERMISSIONSET #Permissions
+    PROPERTIES
+    ENDPROPERTIES
+    
+    TABLES #Tables
+    ENDTABLES
+    
+  SERVERMETHODS #Server Methods
+  ENDSERVERMETHODS
+  
+ASSOCIATEDCODEPERMISSIONS #Associated Code Permissions
+ENDASSOCIATEDCODEPERMISSIONS
+
+ENDPERMISSIONSET
+
+ENDOPERATION
+
+ENDOPERATIONS
+
+ENDSERVICE
+
+
+***Element: JOB
+
+; Microsoft Dynamics AX Job: GetRetailDiscountsTest unloaded
+; --------------------------------------------------------------------------------
+  JOBVERSION 1
+  
+  SOURCE #GetRetailDiscountsTest
+    #static void GetRetailDiscountsTest(Args _args)
+    #{
+    #    SCPromotion servicePromo = new SCPromotion();
+    #    SCPromotionLineQueryContract queryContract = new SCPromotionLineQueryContract();
+    #    List promos;
+    #    List promoLines = new List(Types::Class);
+    #    List promoQuery;
+    #
+    #    //The headers
+    #    promos = servicePromo.GetAllDiscounts(5637144608);
+    #
+    #    //The lines
+    #    queryContract = new SCPromotionLineQueryContract();
+    #    queryContract.parmItemRecId(22565423115);
+    #    queryContract.parmVariantId("");
+    #
+    #    promoLines.addEnd(queryContract);
+    #
+    #    //The lines
+    #    queryContract = new SCPromotionLineQueryContract();
+    #    queryContract.parmItemRecId(22565423120);
+    #    queryContract.parmVariantId("");
+    #
+    #    promoLines.addEnd(queryContract);
+    #
+    #    //The lines
+    #    queryContract = new SCPromotionLineQueryContract();
+    #    queryContract.parmItemRecId(22565423125);
+    #    queryContract.parmVariantId("");
+    #
+    #    promoLines.addEnd(queryContract);
+    #
+    #
+    #    promoLines = servicePromo.GetItemDiscounts(5637144608, "USD", promoLines);
+    #}
+  ENDSOURCE
+  PROPERTIES
+    Origin              #{1CE4D921-5667-4CA3-B363-40942B86D244}
+  ENDPROPERTIES
+  
+
+***Element: CLS
+
+; Microsoft Dynamics AX Class: SCPromotionContract unloaded
+; --------------------------------------------------------------------------------
+  CLSVERSION 1
+  
+  CLASS #SCPromotionContract
+    PROPERTIES
+      Name                #SCPromotionContract
+      RunOn               #Server
+      Origin              #{79DB5FAB-2BA5-431D-9BF2-351E69833107}
+    ENDPROPERTIES
+    
+    METHODS
+      SOURCE #classDeclaration
+        #[DataContractAttribute]
+        #class SCPromotionContract
+        #{
+        #    String30 currency;
+        #    String30 discountName;
+        #    String30 promotionType;
+        #    String30 concurrency;
+        #    String30 enabled;
+        #    String30 tartDate;
+        #    date startDate;
+        #    date endDate;
+        #    String30 priceDiscount;
+        #    String30 id;
+        #    String255 description;
+        #    String255 disclaimer;
+        #}
+      ENDSOURCE
+      SOURCE #parmConcurrency
+        #[DataMemberAttribute]
+        #public String30 parmConcurrency(String30 _concurrency = concurrency)
+        #{
+        #    concurrency = _concurrency;
+        #
+        #    return concurrency;
+        #}
+      ENDSOURCE
+      SOURCE #parmCurrency
+        #[DataMemberAttribute]
+        #public CurrencyCode parmCurrency(CurrencyCode _currency = currency)
+        #{
+        #    currency = _currency;
+        #
+        #    return currency;
+        #}
+      ENDSOURCE
+      SOURCE #parmDescription
+        #[DataMemberAttribute]
+        #public String255 parmDescription(String255 _description = description)
+        #{
+        #    description = _description;
+        #
+        #    return description;
+        #}
+      ENDSOURCE
+      SOURCE #parmDisclaimer
+        #[DataMemberAttribute]
+        #public String255 parmDisclaimer(String255 _disclaimer = disclaimer)
+        #{
+        #    disclaimer = _disclaimer;
+        #
+        #    return disclaimer;
+        #}
+      ENDSOURCE
+      SOURCE #parmDiscountName
+        #[DataMemberAttribute]
+        #public String30 parmDiscountName(String30 _discountName = discountName)
+        #{
+        #    discountName = _discountName;
+        #
+        #    return discountName;
+        #}
+      ENDSOURCE
+      SOURCE #parmEndDate
+        #[DataMemberAttribute]
+        #public date parmEndDate(date _endDate = endDate)
+        #{
+        #    endDate = _endDate;
+        #
+        #    return endDate;
+        #}
+      ENDSOURCE
+      SOURCE #parmId
+        #[DataMemberAttribute]
+        #public String20 parmId(String20 _id = id)
+        #{
+        #    id = _id;
+        #
+        #    return id;
+        #}
+      ENDSOURCE
+      SOURCE #parmPriceDiscount
+        #[DataMemberAttribute]
+        #public String30 parmPriceDiscount(String30 _priceDiscount = priceDiscount)
+        #{
+        #    priceDiscount = _priceDiscount;
+        #
+        #    return priceDiscount;
+        #}
+      ENDSOURCE
+      SOURCE #parmPromotionType
+        #[DataMemberAttribute]
+        #public String30 parmPromotionType(String30 _promotionType = promotionType)
+        #{
+        #    promotionType = _promotionType;
+        #
+        #    return promotionType;
+        #}
+      ENDSOURCE
+      SOURCE #parmStartDate
+        #[DataMemberAttribute]
+        #public date parmStartDate(date _startDate = startDate)
+        #{
+        #    startDate = _startDate;
+        #
+        #    return startDate;
+        #}
+      ENDSOURCE
+    ENDMETHODS
+  ENDCLASS
+
+***Element: CLS
+
+; Microsoft Dynamics AX Class: SCPromotionLineContract unloaded
+; --------------------------------------------------------------------------------
+  CLSVERSION 1
+  
+  CLASS #SCPromotionLineContract
+    PROPERTIES
+      Name                #SCPromotionLineContract
+      RunOn               #Server
+      Origin              #{D613A8A5-9C9E-4927-AD5E-4AA2BAC6F6CF}
+    ENDPROPERTIES
+    
+    METHODS
+      SOURCE #classDeclaration
+        #[DataContractAttribute]
+        #class SCPromotionLineContract
+        #{
+        #    String30 promotionType;
+        #    String30 priceDiscount;
+        #    String30 id;
+        #    RecId itemRecId;
+        #}
+      ENDSOURCE
+      SOURCE #parmId
+        #[DataMemberAttribute]
+        #public String20 parmId(String20 _id = id)
+        #{
+        #    id = _id;
+        #
+        #    return id;
+        #}
+      ENDSOURCE
+      SOURCE #parmItemRecId
+        #[DataMemberAttribute]
+        #public RecId parmItemRecId(RecId _itemRecId = itemRecId)
+        #{
+        #    itemRecId = _itemRecId;
+        #
+        #    return itemRecId;
+        #}
+      ENDSOURCE
+      SOURCE #parmPriceDiscount
+        #[DataMemberAttribute]
+        #public String30 parmPriceDiscount(String30 _priceDiscount = priceDiscount)
+        #{
+        #    priceDiscount = _priceDiscount;
+        #
+        #    return priceDiscount;
+        #}
+      ENDSOURCE
+      SOURCE #parmPromotionType
+        #[DataMemberAttribute]
+        #public String30 parmPromotionType(String30 _promotionType = promotionType)
+        #{
+        #    promotionType = _promotionType;
+        #
+        #    return promotionType;
+        #}
+      ENDSOURCE
+    ENDMETHODS
+  ENDCLASS
+
+***Element: CLS
+
+; Microsoft Dynamics AX Class: SCPromotionLineQueryContract unloaded
+; --------------------------------------------------------------------------------
+  CLSVERSION 1
+  
+  CLASS #SCPromotionLineQueryContract
+    PROPERTIES
+      Name                #SCPromotionLineQueryContract
+      RunOn               #Server
+      Origin              #{22640CDC-29C0-4D06-AEF4-F86A18C2B7E7}
+    ENDPROPERTIES
+    
+    METHODS
+      SOURCE #classDeclaration
+        #[DataContractAttribute]
+        #class SCPromotionLineQueryContract
+        #{
+        #    String30 variantId;
+        #    RecId itemRecId;
+        #}
+      ENDSOURCE
+      SOURCE #parmItemRecId
+        #[DataMemberAttribute]
+        #public RecId parmItemRecId(RecId _itemRecId = itemRecId)
+        #{
+        #    itemRecId = _itemRecId;
+        #
+        #    return itemRecId;
+        #}
+      ENDSOURCE
+      SOURCE #parmVariantId
+        #[DataMemberAttribute]
+        #public String20 parmVariantId(String20 _variantId = variantId)
+        #{
+        #    variantId = _variantId;
+        #
+        #    return variantId;
+        #}
+      ENDSOURCE
+    ENDMETHODS
+  ENDCLASS
+
+***Element: CLS
+
+; Microsoft Dynamics AX Class: SCPromotion unloaded
+; --------------------------------------------------------------------------------
+  CLSVERSION 1
+  
+  CLASS #SCPromotion
+    PROPERTIES
+      Name                #SCPromotion
+      RunOn               #Server
+      Origin              #{52FED031-91AD-448E-9DF8-B87142B0810D}
+    ENDPROPERTIES
+    
+    METHODS
+      SOURCE #classDeclaration
+        #public class SCPromotion
+        #{
+        #}
+      ENDSOURCE
+      SOURCE #GetAllDiscounts
+        #[
+        #    SysEntryPointAttribute(true),
+        #    AifCollectionTypeAttribute('return', Types::Class, classStr(SCPromotionContract)),
+        #    AifCollectionTypeAttribute('channelId',Types::Int64)
+        #]
+        #public List GetAllDiscounts(RecId channelId)
+        #{
+        #    RetailPricingDataManager manager = RetailPricingDataManager::constructPricingDataManagerSimulator(channelId, false);
+        #    RetailPeriodicDiscount discount;
+        #    Container discountCodes;
+        #    Container discountCode;
+        #    SCPromotionContract contract;
+        #    List promosList = new List(Types::Class);
+        #    int i;
+        #
+        #    discountCodes = manager.getAllRetailDiscounts();
+        #
+        #    for (i=1; i <= conlen(discountCodes); i++)
+        #    {
+        #        discountCode = conpeek(discountCodes, i);
+        #
+        #        contract = new SCPromotionContract();
+        #
+        #        contract.parmId(conpeek(discountCode, 1));
+        #        contract.parmCurrency(conpeek(discountCode, 2));
+        #        contract.parmDiscountName(conpeek(discountCode, 3));
+        #        contract.parmPromotionType(enum2Str(conpeek(discountCode, 4)));
+        #        contract.parmConcurrency(enum2Str(conpeek(discountCode, 5)));
+        #        contract.parmStartDate(conpeek(discountCode, 9));
+        #        contract.parmEndDate(conpeek(discountCode, 10));
+        #        contract.parmPriceDiscount(conpeek(discountCode, 14));
+        #
+        #        discount = RetailPeriodicDiscount::findByOfferId(contract.parmId());
+        #
+        #        contract.parmDescription(discount.Description);
+        #        contract.parmDisclaimer(discount.Disclaimer);
+        #
+        #        promosList.addEnd(contract);
+        #    }
+        #
+        #    return promosList;
+        #}
+      ENDSOURCE
+      SOURCE #GetItemDiscounts
+        #[
+        #    SysEntryPointAttribute(true),
+        #    AifCollectionTypeAttribute('return', Types::Class, classStr(SCPromotionLineContract)),
+        #    AifCollectionTypeAttribute('channelId',Types::Int64),
+        #    AifCollectionTypeAttribute('currency',Types::String),
+        #    AifCollectionTypeAttribute('promotionQueryContract', Types::Class, classStr(SCPromotionLineQueryContract))
+        #]
+        #public List GetItemDiscounts(RecId channelId,str currency, List promotionQueryContract)
+        #{
+        #    RetailPricingDataManager manager = RetailPricingDataManager::constructPricingDataManagerSimulator(channelId, false);
+        #
+        #    Container discountCodes;
+        #    Container discountCode;
+        #    Container items;
+        #    container item;
+        #    container priceGroupsFound;
+        #    container priceGroups;
+        #    container priceGroup;
+        #    List promoLinesList = new List(Types::Class);
+        #    int i, counter = 1;
+        #    ListEnumerator  listEnumerator;
+        #    SCPromotionLineQueryContract queryContract;
+        #    SCPromotionLineContract promotionLineContract;
+        #
+        #    listEnumerator = promotionQueryContract.getEnumerator();
+        #
+        #
+        #    while (listEnumerator.moveNext())
+        #    {
+        #        queryContract = listEnumerator.current();
+        #
+        #        item = conNull();
+        #        item = conIns(item, 1, InventTable::findByProduct(queryContract.parmItemRecId()).ItemId);
+        #        item = conIns(item, 2, queryContract.parmVariantId());
+        #
+        #        items = conIns(items,counter,item);
+        #        counter++;
+        #    }
+        #
+        #    priceGroupsFound = manager.getPriceGroups();
+        #    counter = 1;
+        #    for (i=1; i <= conlen(priceGroupsFound); i++)
+        #    {
+        #        priceGroup = conPeek(priceGroupsFound,i);
+        #        priceGroups = conIns(priceGroups, counter, conPeek(priceGroup,2));
+        #        counter++;
+        #    }
+        #
+        #    discountCodes = manager.getRetailDiscountsForItems(items,priceGroups, DateTimeUtil::minValue(),DateTimeUtil::maxValue(), currency);
+        #
+        #    for (i=1; i <= conlen(discountCodes); i++)
+        #    {
+        #        discountCode = conpeek(discountCodes, i);
+        #
+        #        promotionLineContract = new SCPromotionLineContract();
+        #
+        #        promotionLineContract.parmId(conpeek(discountCode, 2));
+        #        promotionLineContract.parmItemRecId(InventTable::find(conpeek(discountCode, 29)).Product);
+        #        promotionLineContract.parmPromotionType(enum2str(conpeek(discountCode, 14)));
+        #
+        #        promotionLineContract.parmPriceDiscount(conpeek(discountCode, 23));
+        #        if(promotionLineContract.parmPriceDiscount() == "0")
+        #        {
+        #            promotionLineContract.parmPriceDiscount(conpeek(discountCode, 18));
+        #        }
+        #
+        #        promoLinesList.addEnd(promotionLineContract);
+        #    }
+        #
+        #    return promoLinesList;
+        #}
+      ENDSOURCE
+    ENDMETHODS
+  ENDCLASS
+
+***Element: PRN
+
+; Microsoft Dynamics AX Project : SCPromotions unloaded
+; --------------------------------------------------------------------------------
+  PROJECTVERSION 2
+  
+  PROJECT #SCPromotions
+  SHARED
+  PROPERTIES
+    Name                #SCPromotions
+    Origin              #{DFDC3880-C3D3-4B77-9BB3-088F20DD759C}
+  ENDPROPERTIES
+  
+    PROJECTCLASS ProjectNode
+    BEGINNODE
+      FILETYPE 0
+      UTILTYPE 76
+      UTILOBJECTID 0
+      NODETYPE 1321
+      NAME #SCPromotionService
+    ENDNODE
+    BEGINNODE
+      FILETYPE 0
+      UTILTYPE 5
+      UTILOBJECTID 0
+      NODETYPE 215
+      NAME #GetRetailDiscountsTest
+    ENDNODE
+    BEGINNODE
+      FILETYPE 0
+      UTILTYPE 45
+      UTILOBJECTID 1029042
+      NODETYPE 329
+      NAME #SCPromotionContract
+    ENDNODE
+    BEGINNODE
+      FILETYPE 0
+      UTILTYPE 45
+      UTILOBJECTID 1029043
+      NODETYPE 329
+      NAME #SCPromotionLineContract
+    ENDNODE
+    BEGINNODE
+      FILETYPE 0
+      UTILTYPE 45
+      UTILOBJECTID 1029044
+      NODETYPE 329
+      NAME #SCPromotionLineQueryContract
+    ENDNODE
+    BEGINNODE
+      FILETYPE 0
+      UTILTYPE 45
+      UTILOBJECTID 1029041
+      NODETYPE 329
+      NAME #SCPromotion
+    ENDNODE
+  ENDPROJECT
+  
+
+***Element: END

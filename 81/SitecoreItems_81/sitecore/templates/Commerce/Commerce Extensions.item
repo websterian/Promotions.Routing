@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {08783A2B-EFAD-47FC-9367-F7F2A4FEE356}
+database: master
+path: /sitecore/templates/Commerce/Commerce Extensions
+parent: {66EA5927-AE92-45FD-8B39-FAA0839A0C31}
+name: Commerce Extensions
+master: {00000000-0000-0000-0000-000000000000}
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
+created: 20160817T185002:636070566028970000
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+People/16x16/cubes.png
+----version----
+language: en
+version: 1
+revision: 6953fc6b-6761-400b-a427-be2a0145e287
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Commerce Extensions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140908T152231
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6953fc6b-6761-400b-a427-be2a0145e287
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150414T201726:635646394467241400Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

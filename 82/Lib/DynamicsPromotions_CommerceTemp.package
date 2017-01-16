@@ -1,0 +1,90 @@
+<project site="http://ax6_81.reference.storefront.com/" format="Update Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>DynamicsPromotions_CommerceTemp</PackageName>
+      <Author />
+      <Version />
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/Commerce/Dynamics Routing Extensions/Commerce Endpoints/Endpoint_DynamicsPromotionService_Contoso/{52830B32-3A1A-45C2-9178-818FA5100FE2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/{53D86554-358D-4C1D-B577-AC03A01B2BBC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/{E948D204-880C-4994-8D49-2C68C90E4E41}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Promotions path/{D9DCC023-34C8-4249-81BF-B16832383BB7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Promotion lines path/{CC787234-2BCE-42F8-AA82-4E1247F6ED5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Products path/{F8F5B143-67E5-4361-947A-7EC6B17A73D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Campaign path/{2BEFA9AC-E49F-44E3-BFD3-4B0E8C3357BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Campaign group path/{EC6AD1BE-DAA2-4761-BFDF-2BCAE61BC2B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Marketing facets path/{9860900F-8420-439E-BF37-55D9FDB85560}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/{05A969D6-07AF-4C23-91AC-F7DA5D8169D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Domain/{E5B98EA8-9C6D-4205-A75D-2D5AE070E088}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Username/{0CC3DE66-F28C-4FCD-A7E4-C74CB83B6C4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Password/{44F5231C-6B87-4CBE-9FE0-CA15922C7608}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/URL/{267EB0DA-B4FD-43F4-BBCC-01433A974979}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/{E7C26732-13B9-4B4F-A76C-3131BE17A7FA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Company id/{48789340-E148-456A-B48E-D2096CE1F2E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Partition/{DCD9AACA-6A4D-459B-9B14-707DBC4575D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Channel id/{6CA532B8-9FBD-402A-BEC2-35D44F826099}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Currency/{78BC6D76-BBD9-490B-9153-36D56CA19AF0}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries />
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

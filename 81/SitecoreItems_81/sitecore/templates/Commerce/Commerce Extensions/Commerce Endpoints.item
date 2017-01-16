@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {510DD568-F7E2-44D0-A3DE-3CC2084961F1}
+database: master
+path: /sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints
+parent: {08783A2B-EFAD-47FC-9367-F7F2A4FEE356}
+name: Commerce Endpoints
+master: {00000000-0000-0000-0000-000000000000}
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
+created: 20160817T185003:636070566030000000
+
+----version----
+language: en
+version: 1
+revision: 5943fa73-78f9-4fb9-81fd-e68ed622db16
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Commerce Endpoints
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140801T170201
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5943fa73-78f9-4fb9-81fd-e68ed622db16
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150414T201811:635646394916860022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

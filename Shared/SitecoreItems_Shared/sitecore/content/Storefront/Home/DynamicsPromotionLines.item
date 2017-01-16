@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {E26C44FC-41BE-492D-84BB-32DE48727BF3}
+database: master
+path: /sitecore/content/Storefront/Home/DynamicsPromotionLines
+parent: {441B60D3-09BB-4111-A3AD-D10076B78B54}
+name: DynamicsPromotionLines
+master: {00000000-0000-0000-0000-000000000000}
+template: {BAD65932-7106-4D0C-ABC6-9FBD90611964}
+templatekey: Commerce Dynamics Promotion Line Folder
+created: 20161219T165327:636177632072770000
+
+----version----
+language: en
+version: 1
+revision: 5c098abd-d9d5-4fd4-9524-54f920f18368
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161219T165327Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c098abd-d9d5-4fd4-9524-54f920f18368
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170104T231530Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

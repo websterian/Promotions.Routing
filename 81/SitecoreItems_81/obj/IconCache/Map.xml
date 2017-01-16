@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Commerce" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line" ItemIcon="/temp/IconCache/Business/32x32/currency_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line Folder" ItemIcon="/temp/IconCache/Business/16x16/currency_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion" ItemIcon="/temp/IconCache/Business/32x32/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Folder" ItemIcon="/temp/IconCache/Business/16x16/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Product" ItemIcon="/temp/IconCache/Applications/32x32/form_blue.png" />
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/Storefront" ItemIcon="/temp/IconCache/Core3/32x32/home_green.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/Dynamics Promotion Lines" ItemIcon="/temp/iconcache/business/16x16/currency_dollar.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/Dynamics Promotions" ItemIcon="/temp/IconCache/Business/16x16/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/Commerce" ItemIcon="/temp/IconCache/Business/32x32/creditcards.png" />
+  <Item ItemPath="/sitecore/Commerce/Commerce Synchronization" ItemIcon="/temp/iconcache/applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/Commerce/Commerce Synchronization/Commerce Routes" ItemIcon="/temp/iconcache/applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/Commerce/Commerce Synchronization/Commerce Routes/Route Requests" ItemIcon="/temp/iconcache/applications/32x32/folder_refresh.png" />
+  <Item ItemPath="/sitecore/Commerce/Commerce Synchronization/Commerce Routes/Route_DynamicsPromotions" ItemIcon="/temp/iconcache/applications/32x32/gear_refresh.png" />
+  <Item ItemPath="/sitecore/Commerce/Commerce Synchronization/Commerce Routes/Route_DynamicsPromotions/CreateSitecorePromotions" ItemIcon="/temp/iconcache/applications/32x32/gear_ok.png" />
+  <Item ItemPath="/sitecore/Commerce/Dynamics Routing Extensions" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/Commerce/Dynamics Routing Extensions/Commerce Endpoints" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/Commerce/Dynamics Routing Extensions/Commerce Endpoints/Endpoint_DynamicsPromotionService" ItemIcon="/temp/iconcache/network/32x32/download.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Domain" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Username" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Password" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Company id" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Channel id" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions" ItemIcon="/temp/IconCache/People/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service" ItemIcon="/temp/IconCache/network/32x32/download.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Partition" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/URL" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Promotions path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Promotion lines path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Products path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Campaign path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Campaign group path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Paths/Marketing facets path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/Commerce/Dynamics Routing Extensions/Commerce Endpoints/Endpoint_DynamicsPromotionService_Fabrikam" ItemIcon="/temp/iconcache/network/32x32/download.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home" ItemIcon="/temp/iconcache/network/16x16/home.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/DynamicsPromotionLines" ItemIcon="/temp/iconcache/business/16x16/currency_dollar.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/DynamicsPromotionDetail" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Storefront" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Storefront/Shared" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Storefront/Shared/DynamicsPromotionDetail" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Storefront/Shared/DynamicsPromotionNav" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Storefront/Shared/DynamicsPromotions" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Global/QuickLinks/TopBarLinks" ItemIcon="/temp/iconcache/network/32x32/node.png" />
+  <Item ItemPath="/sitecore/Commerce/Dynamics Routing Extensions/Commerce Endpoints/Endpoint_DynamicsPromotionService_Contoso" ItemIcon="/temp/iconcache/network/32x32/download.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Global" ItemIcon="/temp/IconCache/Network/32x32/earth.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Global/QuickLinks" ItemIcon="/temp/iconcache/applications/32x32/folder_network.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Global/QuickLinks/Links" ItemIcon="/temp/iconcache/network/32x32/environment_network.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Global/QuickLinks/Links/TopBar" ItemIcon="/temp/iconcache/network/32x32/environment_network.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Global/QuickLinks/Links/TopBar/Promotions" ItemIcon="/temp/iconcache/network/32x32/link.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/DynamicsPromotions" ItemIcon="/temp/IconCache/Business/16x16/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/Commerce/Commerce Synchronization/Commerce Routes/Route Requests/DynamicsPromotions" ItemIcon="/temp/iconcache/applications/32x32/gear_run.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/AX Instance details/Currency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

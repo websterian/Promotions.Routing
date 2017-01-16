@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/system" ItemIcon="/temp/IconCache/People/16x16/workstation1.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange" ItemIcon="/temp/iconcache/office/32x32/cloud_updown.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant" ItemIcon="/temp/iconcache/office/32x32/network_node2.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Endpoints" ItemIcon="/temp/iconcache/office/32x32/cloud.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Endpoints/Providers" ItemIcon="/temp/iconcache/office/32x32/folder_open.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Endpoints/Providers/Dynamics promotions" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Endpoints/Providers/Dynamics promotions/Dynamics Promotion Endpoint - Contoso" ItemIcon="/temp/iconcache/office/32x32/cloud.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Pipeline Batches" ItemIcon="/temp/iconcache/office/32x32/elements_selection.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Pipeline Batches/Dynamics promotions batch" ItemIcon="/temp/iconcache/office/32x32/elements_selection.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Pipelines" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Pipelines/Dynamics promotions batch" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/system/Data Exchange/Commerce Tenant/Pipelines/Dynamics promotions batch/CreateSitecorePromotions" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange" ItemIcon="/temp/IconCache/Office/32x32/cloud_updown.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint" ItemIcon="/temp/IconCache/office/32x32/cloud.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths/Promotions path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths/Promotion lines path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths/Products path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths/Campaign path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths/Campaign group path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Paths/Marketing facets path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/cloud.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Service details/Domain" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Service details/Username" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Service details/Password" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/AX Instance details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/AX Instance details/Company id" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/AX Instance details/Partition" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/AX Instance details/Channel id" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/AX Instance details/Currency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Service details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Data Exchange/Providers/Commerce/Endpoints/Dynamics Promotion Endpoint/Service details/URL" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

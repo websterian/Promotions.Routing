@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E5B98EA8-9C6D-4205-A75D-2D5AE070E088}
+database: master
+path: /sitecore/templates/Commerce/Commerce Extensions/Commerce Endpoints/Commerce Endpoint - Dynamics Promotion service/Service details/Domain
+parent: {05A969D6-07AF-4C23-91AC-F7DA5D8169D4}
+name: Domain
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20161221T172624:636179379845570000
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
+
+Single-Line Text
+----field----
+field: {BE351A73-FCB0-4213-93FA-C302D8AB4F51}
+name: Shared
+key: shared
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 44210cc2-7f50-4032-bed1-9d67cc238f0e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161221T172624Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44210cc2-7f50-4032-bed1-9d67cc238f0e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161221T173717Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

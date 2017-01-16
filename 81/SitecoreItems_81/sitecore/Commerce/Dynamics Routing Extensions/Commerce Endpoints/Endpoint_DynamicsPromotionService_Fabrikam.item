@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {F86F28DA-6E81-4A29-9B51-2C0D3B042DB5}
+database: master
+path: /sitecore/Commerce/Dynamics Routing Extensions/Commerce Endpoints/Endpoint_DynamicsPromotionService_Fabrikam
+parent: {6BE9CBB0-E9BD-496F-AF36-E4E0A9405C31}
+name: Endpoint_DynamicsPromotionService_Fabrikam
+master: {00000000-0000-0000-0000-000000000000}
+template: {53D86554-358D-4C1D-B577-AC03A01B2BBC}
+templatekey: Commerce Endpoint - Dynamics Promotion service
+created: 20170103T185307:636190663877100000
+
+----field----
+field: {E5B98EA8-9C6D-4205-A75D-2D5AE070E088}
+name: Domain
+key: domain
+content-length: 11
+
+contoso.com
+----field----
+field: {0CC3DE66-F28C-4FCD-A7E4-C74CB83B6C4E}
+name: Username
+key: username
+content-length: 13
+
+administrator
+----field----
+field: {44F5231C-6B87-4CBE-9FE0-CA15922C7608}
+name: Password
+key: password
+content-length: 10
+
+Dyn@m1csAX
+----field----
+field: {267EB0DA-B4FD-43F4-BBCC-01433A974979}
+name: URL
+key: url
+content-length: 47
+
+net.tcp://cu10:8201/DynamicsAx/Services/SCPromo
+----field----
+field: {48789340-E148-456A-B48E-D2096CE1F2E2}
+name: Company id
+key: company id
+content-length: 4
+
+USRT
+----field----
+field: {DCD9AACA-6A4D-459B-9B14-707DBC4575D5}
+name: Partition
+key: partition
+content-length: 7
+
+Initial
+----field----
+field: {6CA532B8-9FBD-402A-BEC2-35D44F826099}
+name: Channel id
+key: channel id
+content-length: 10
+
+5637145359
+----version----
+language: en
+version: 1
+revision: e01a47ca-7741-4e16-90f4-d763366f7c40
+
+----field----
+field: {D9DCC023-34C8-4249-81BF-B16832383BB7}
+name: Promotions path
+key: promotions path
+content-length: 53
+
+/sitecore/content/Storefront/Home/Dynamics Promotions
+----field----
+field: {CC787234-2BCE-42F8-AA82-4E1247F6ED5F}
+name: Promotion lines path
+key: promotion lines path
+content-length: 58
+
+/sitecore/content/Storefront/Home/Dynamics Promotion Lines
+----field----
+field: {F8F5B143-67E5-4361-947A-7EC6B17A73D8}
+name: Products path
+key: products path
+content-length: 49
+
+/sitecore/content/Storefront/Home/Product catalog
+----field----
+field: {2BEFA9AC-E49F-44E3-BFD3-4B0E8C3357BD}
+name: Campaign path
+key: campaign path
+content-length: 50
+
+/sitecore/system/Marketing Control Panel/Campaigns
+----field----
+field: {EC6AD1BE-DAA2-4761-BFDF-2BCAE61BC2B4}
+name: Campaign group path
+key: campaign group path
+content-length: 66
+
+/sitecore/system/Marketing Control Panel/Taxonomies/Campaign group
+----field----
+field: {9860900F-8420-439E-BF37-55D9FDB85560}
+name: Marketing facets path
+key: marketing facets path
+content-length: 51
+
+/sitecore/system/Marketing Control Panel/Taxonomies
+----field----
+field: {78BC6D76-BBD9-490B-9153-36D56CA19AF0}
+name: Currency
+key: currency
+content-length: 3
+
+USD
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161221T172828Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e01a47ca-7741-4e16-90f4-d763366f7c40
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170103T185327Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

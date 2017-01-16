@@ -1,0 +1,17 @@
+Route_DynamicsPromotions(Start)
+CreateSitecorePromotions(Start)
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100001 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100002 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100003 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100005 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100006 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100007 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100008 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100009 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100010 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100011 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100012 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100014 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100015 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100016 not found
+Sitecore Item Service Get item failed: Item /sitecore/content/Storefront/Home/DynamicsPromotions/ST100018 not found

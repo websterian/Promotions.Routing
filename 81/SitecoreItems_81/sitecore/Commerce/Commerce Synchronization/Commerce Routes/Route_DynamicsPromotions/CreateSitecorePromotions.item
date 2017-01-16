@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {375D359F-4116-41C9-889E-E86FEFCCDAB1}
+database: master
+path: /sitecore/Commerce/Commerce Synchronization/Commerce Routes/Route_DynamicsPromotions/CreateSitecorePromotions
+parent: {741485A7-4502-425C-AF57-E30E9AEC93F3}
+name: CreateSitecorePromotions
+master: {00000000-0000-0000-0000-000000000000}
+template: {DFFB548D-581F-4470-BE37-A71A9E405A16}
+templatekey: Commerce Route Step
+created: 20161214T214506:636173487067730000
+
+----field----
+field: {9A8A0F94-3D74-450D-BD6E-A4B9A1DB23E1}
+name: Processor Assembly
+key: processor assembly
+content-length: 46
+
+Sitecore.Commerce.Dynamics.Promotions.Endpoint
+----field----
+field: {CB9A0C56-C131-4AA3-A6D9-F5B8761AB5A2}
+name: Processor Type
+key: processor type
+content-length: 82
+
+Sitecore.Commerce.Dynamics.Promotions.Endpoint.Processors.CreateSitecorePromotions
+----field----
+field: {74A788FC-0FD7-43BD-978F-0CCD5AA78DA2}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: cf10d1cd-190b-4c88-81a5-8b6599836f75
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161214T214506Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cf10d1cd-190b-4c88-81a5-8b6599836f75
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161214T220102Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

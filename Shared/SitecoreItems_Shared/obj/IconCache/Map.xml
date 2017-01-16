@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/Storefront" ItemIcon="/temp/IconCache/Core3/32x32/home_green.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home" ItemIcon="/temp/iconcache/network/16x16/home.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/DynamicsPromotionLines" ItemIcon="/temp/iconcache/business/16x16/currency_dollar.png" />
+  <Item ItemPath="/sitecore/content/Storefront/Home/DynamicsPromotions" ItemIcon="/temp/IconCache/Business/16x16/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Commerce" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line" ItemIcon="/temp/IconCache/Business/32x32/currency_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line/General" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line/General/Discount type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line/General/Discount value" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line/General/Promotion" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line/General/Product" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Line Folder" ItemIcon="/temp/IconCache/Business/16x16/currency_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion" ItemIcon="/temp/IconCache/Business/32x32/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/Name" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/Currency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/Concurrency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/Price discount" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/Start date" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/End date" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/__Standard Values" ItemIcon="/temp/iconcache/business/32x32/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/Details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/Details/Description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/Details/Disclaimer" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/Details/Images" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion Folder" ItemIcon="/temp/IconCache/Business/16x16/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/General/Type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/Lines" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Dynamics Promotion/Lines/Promotion lines" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Product" ItemIcon="/temp/IconCache/Applications/32x32/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Product/Promotions" ItemIcon="/temp/IconCache/Business/16x16/moneybag_dollar.png" />
+  <Item ItemPath="/sitecore/templates/Commerce/Catalog/Commerce Product/Promotions/Promotion lines" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>
